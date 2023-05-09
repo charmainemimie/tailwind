@@ -2,7 +2,9 @@ import { models } from "./fileObjects/cards";
 
 const Works = () => {
   return (
-    <div className="flex">
+    <>
+          <br /><br /><h2 className="center">OUR FEMALE MODELS</h2>
+    <div className="border border-radius-12 grid grid-cols-3 gap-4 justify-between pb-3">
       {models.map((item) => {
         return (
           <div
@@ -22,6 +24,7 @@ const Works = () => {
         );
       })}
     </div>
+    </>
   );
 };
 
